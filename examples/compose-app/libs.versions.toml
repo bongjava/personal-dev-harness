@@ -1,5 +1,5 @@
 [versions]
-myDesignSystem = "1.0.0"
+myDesignSystem = "1.0.1"
 
 [libraries]
 my-design-system-compose = { module = "com.bongjava:my-design-system-compose", version.ref = "myDesignSystem" }

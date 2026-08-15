@@ -16,7 +16,7 @@ Install the React package:
 ```json
 {
   "dependencies": {
-    "@my-scope/design-system-react": "1.0.0"
+    "@bongjava/design-system-react": "1.0.0"
   }
 }
 ```
@@ -24,8 +24,8 @@ Install the React package:
 Import generated CSS variables and components:
 
 ```ts
-import "@my-scope/design-system-react/tokens.css";
-import { Button } from "@my-scope/design-system-react";
+import "@bongjava/design-system-react/tokens.css";
+import { Button } from "@bongjava/design-system-react";
 ```
 
 ## Flutter
@@ -48,7 +48,7 @@ Pin the package in the Gradle version catalog:
 myDesignSystem = "1.0.0"
 
 [libraries]
-my-design-system-compose = { module = "com.example:my-design-system-compose", version.ref = "myDesignSystem" }
+my-design-system-compose = { module = "com.bongjava:my-design-system-compose", version.ref = "myDesignSystem" }
 ```
 
 ## SwiftUI
@@ -56,5 +56,5 @@ my-design-system-compose = { module = "com.example:my-design-system-compose", ve
 Pin the package in `Package.swift` or Xcode package resolution:
 
 ```swift
-.package(url: "https://github.com/my-org/my-design-system.git", exact: "1.0.0")
+.package(url: "https://github.com/bongjava/my-design-system.git", exact: "1.0.0")
 ```

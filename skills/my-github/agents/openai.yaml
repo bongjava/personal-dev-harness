@@ -1,0 +1,4 @@
+interface:
+  display_name: "My GitHub"
+  short_description: "Apply GitHub workflow defaults."
+  default_prompt: "Prepare this project for GitHub using the harness branch, PR, release, and protection defaults."

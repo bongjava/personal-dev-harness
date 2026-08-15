@@ -36,7 +36,7 @@ Pin the package in `pubspec.yaml`:
 dependencies:
   my_design_system:
     hosted: https://pub.dev
-    version: 1.0.0
+    version: 1.0.1
 ```
 
 ## Compose
@@ -45,7 +45,7 @@ Pin the package in the Gradle version catalog:
 
 ```toml
 [versions]
-myDesignSystem = "1.0.0"
+myDesignSystem = "1.0.1"
 
 [libraries]
 my-design-system-compose = { module = "com.bongjava:my-design-system-compose", version.ref = "myDesignSystem" }
@@ -56,5 +56,5 @@ my-design-system-compose = { module = "com.bongjava:my-design-system-compose", v
 Pin the package in `Package.swift` or Xcode package resolution:
 
 ```swift
-.package(url: "https://github.com/bongjava/my-design-system.git", exact: "1.0.0")
+.package(url: "https://github.com/bongjava/my-design-system.git", exact: "1.0.1")
 ```

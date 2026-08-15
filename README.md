@@ -71,7 +71,7 @@ Example:
   "designSystem": {
     "enabled": true,
     "repo": "my-design-system",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "package": "@bongjava/design-system-react"
   }
 }

@@ -1,0 +1,8 @@
+name: example_flutter_app
+publish_to: none
+dependencies:
+  flutter:
+    sdk: flutter
+  my_design_system:
+    hosted: https://pub.dev
+    version: 1.0.0

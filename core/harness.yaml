@@ -1,8 +1,8 @@
 name: personal-dev-harness
-version: 1.0.0
+version: 1.0.1
 skills:
-  project: my-project@1.0.0
-  github: my-github@1.0.0
+  project: my-project@1.0.1
+  github: my-github@1.0.1
 design_system:
   strategy: external-package
   repository: my-design-system

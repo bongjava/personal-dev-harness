@@ -1,0 +1,16 @@
+{
+  "harness": {
+    "name": "personal-dev-harness",
+    "version": "1.0.0"
+  },
+  "skills": {
+    "project": "my-project@1.0.0",
+    "github": "my-github@1.0.0"
+  },
+  "designSystem": {
+    "enabled": true,
+    "repo": "my-design-system",
+    "version": "1.0.0",
+    "package": "MyDesignSystem"
+  }
+}

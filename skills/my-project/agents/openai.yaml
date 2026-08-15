@@ -1,0 +1,3 @@
+display_name: My Project
+short_description: Create harness-ready projects.
+default_prompt: Create a new project with the harness defaults and pin the requested design system version.

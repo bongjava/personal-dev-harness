@@ -1,0 +1,5 @@
+[versions]
+myDesignSystem = "1.0.0"
+
+[libraries]
+my-design-system-compose = { module = "com.example:my-design-system-compose", version.ref = "myDesignSystem" }

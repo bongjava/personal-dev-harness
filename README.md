@@ -41,6 +41,20 @@ The design system lives in a separate Git repository/package named `my-design-sy
 - Projects depend on exact package versions, not floating ranges.
 - The harness may reference package names and examples, but it must not vendor the token source.
 
+## Install Skills Locally
+
+To make Codex discover the harness skills, copy them into your Codex skills directory:
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R skills/my-project ~/.codex/skills/my-project
+cp -R skills/my-github ~/.codex/skills/my-github
+```
+
+After copying, start a new Codex task and ask for `$my-project` or `$my-github`.
+
+For versioned operation, install skills from a tagged harness release and record that version in each generated project's `project.harness.json`.
+
 ## Project Creation Defaults
 
 When `my-project` creates a new project:
@@ -58,7 +72,7 @@ Example:
     "enabled": true,
     "repo": "my-design-system",
     "version": "1.0.0",
-    "package": "@my-scope/design-system-react"
+    "package": "@bongjava/design-system-react"
   }
 }
 ```

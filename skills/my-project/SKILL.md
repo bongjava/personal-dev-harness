@@ -46,7 +46,7 @@ Every generated project should include:
     "enabled": true,
     "repo": "my-design-system",
     "version": "1.0.0",
-    "package": "@my-scope/design-system-react"
+    "package": "@bongjava/design-system-react"
   }
 }
 ```

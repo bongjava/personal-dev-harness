@@ -1,0 +1,16 @@
+name: personal-dev-harness
+version: 1.0.0
+skills:
+  project: my-project@1.0.0
+  github: my-github@1.0.0
+design_system:
+  strategy: external-package
+  repository: my-design-system
+  default_version_policy: latest-stable
+  project_pin_policy: exact-version
+  source_of_truth: my-design-system/tokens
+supported_stacks:
+  - react-next
+  - flutter
+  - compose
+  - swiftui
